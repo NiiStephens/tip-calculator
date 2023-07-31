@@ -5,7 +5,6 @@ const totalSpan = document.getElementById("total");
 
 
 function calculateTotal() {
-    // preventDefault();
     const billValue = billInput.value;
     const tipValue = tipInput.value;
     const totalValue = billValue * (1 + tipValue / 100);
